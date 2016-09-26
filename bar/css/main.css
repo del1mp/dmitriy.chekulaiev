@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600);
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	position: relative;
+	display: none;
+	overflow: hidden;
+}
+a, a:hover{
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+    color: #fff;
+}
+.wrapper{
+	background: url(../ios-8-wp.jpg) no-repeat bottom;
+	background-size: cover; 
+}
+.color{
+	height: 100vh;
+	background: rgba(0,0,0,0.5);
+}
+a.open{
+		-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	background: transparent;
+	display: inline-block;
+}
+
+ul li img{
+	width: 100%;
+}
+.icons{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: -50%;
+	right: -50%;
+}
+.active{
+	top: 2%;
+	right: 2%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-moz-transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
+	-o-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.icons ul li{
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all .2s ease-in-out;
+	list-style: none;
+}
+.icons ul li a{
+	border-radius: 10px;
+	text-align: center;
+	display: inline-block;
+	background: rgba(255,255,255,0);
+	width: 50px;
+	height: 50px;
+
+}
+.icons {	
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+    -webkit-transform: rotate(0deg);    
+     -moz-transform: rotate(0deg);    
+      -ms-transform: rotate(0deg);    
+       -o-transform: rotate(0deg);   
+          transform: rotate(0deg);
+}
+
+.rot{
+	 -webkit-transform: rotate(90deg);    
+     -moz-transform: rotate(90deg);    
+      -ms-transform: rotate(90deg);    
+       -o-transform: rotate(90deg);   
+          transform: rotate(90deg);
+   
+}
+.fa{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-moz-transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
+	-o-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	color: #fff;
+	font-size: 24px;
+}
+.icons ul li a:hover img{
+	opacity: 0.5;
+}
